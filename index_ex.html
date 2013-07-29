@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
 
+
     <meta charset="utf-8">
     <title>Funny HoWo</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,10 +15,8 @@
     <link href="http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,300,400,600,700,800"  rel="stylesheet" type="text/css">
 
-	
     <style type="text/css">
 
-	
       /* Large desktop */
       @media (min-width: 980px) { 
         body {
@@ -101,49 +100,31 @@
       .footer a {
         color: #ccccff;
       }
+	  
+	  
+ 
 
-	.embed-container {
-    position: relative;
-    padding-bottom: 66%; /* 16/9 ratio */
-    padding-top: 30px; /* IE6 workaround*/
-    height: 0;
-    overflow: hidden;
-	}
-	.embed-container iframe,
-	.embed-container object,
-	.embed-container embed {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-
-.carousel img {
-  
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  max-height: 50%;
-
-}	
+ 
+ 
+	  
     </style>
+
+
 
   </head>
   <body>
- 
-  
-  <!-- Mobile-friendly navbar adapted from example. -->
+    <!-- Mobile-friendly navbar adapted from example. -->
     <!-- http://twitter.github.io/bootstrap/examples/starter-template.html -->
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar"
+                  data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="#">FunnyHoWo</a>
+          <a class="brand" href="#">Bitstarter</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
@@ -155,62 +136,9 @@
       </div>
     </div>
 
-	
-  <div id="myCarousel" class="carousel slide" style="float:middle">
-    <ol class="carousel-indicators">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-    </ol>
-    <!-- Carousel items -->
-    <div class="carousel-inner">
-		<div class="active item">
-			<img src="/img/Video01.jpg">
-			<div class="carousel-caption">
-				<h4>Etichetta dell'immagine 01</h4>
-				<p>Testo all'interno dell'immagine 01</p>
-			</div>
-		</div>
-		<div class="item">
-			<img src="/img/Video02.jpg">
-			<div class="carousel-caption">			
-				<h4>Etichetta dell'immagine 02</h4>
-				<p>Testo all'interno dell'immagine 02</p>
-			</div>				
-		</div>
-		<div class="item">
-			<img src="/img/Video03.jpg">
-			<div class="carousel-caption">			
-				<h4>Etichetta dell'immagine 03</h4>
-				<p>Testo all'interno dell'immagine 03</p>
-			</div>				
-		</div>
-		<div class="item">
-			<img src="/img/Video04.jpg">
-			<div class="carousel-caption">			
-				<h4>Etichetta dell'immagine 04</h4>
-				<p>Testo all'interno dell'immagine 04</p>
-			</div>				
-		</div>		
-		<div class="item">
-			<img src="/img/Video05.jpg">
-			<div class="carousel-caption">			
-				<h4>Etichetta dell'immagine 05</h4>
-				<p>Testo all'interno dell'immagine 05</p>
-			</div>				
-		</div>
-		<div class="item">
-			<img src="/img/Video06.jpg">
-			<div class="carousel-caption">			
-				<h4>Etichetta dell'immagine 06</h4>
-				<p>Testo all'interno dell'immagine 06</p>
-			</div>				
-		</div>		
-	</div>
-    <!-- Carousel nav -->
-    <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
- </div>
+
+
+
 
 
     <!-- We use row-fluid inside containers to achieve a resizable layout. -->
@@ -233,26 +161,30 @@
 	  
 		  </p>
 		<div>	
-				<img src="/img/file0001375927650.jpg" class="img-polaroid img-circle" style="float:middle; width:240px">
+				<img src="http://cdn.morguefile.com/imageData/public/files/e/earl53/preview/fldr_2008_11_14/file0001375927650.jpg" style="float:middle; width:240px" >
         </div>	
         </div>
       </div>
 	  
 
 
+      <div class="row-fluid pitch">
+	  
+  
+	  
+	  
+	  
+        <div class="span5 offset1 video">
+          
+	  <iframe width="380" height="240" src="//www.youtube.com/embed/wiOWuxvip8k" frameborder="2" allowfullscreen></iframe>
+        </div>
 
-    <div class="row-fluid pitch">
-        <div class="span5 offset2 video">
-			<div class="embed-container">
-				<iframe src="//www.youtube.com/embed/hZZQhnx_wUg" frameborder="0" allowfullscreen></iframe>
-			</div>
-		</div>
         <!-- We define a new 'actions' div to contain statistics, order, and share buttons.-->
         <div class="span5 actions">
           <div class="span8 offset2">
             <div class="statistics">
               <div class="span4">
-                <!-- linediv-l and linediv-r give dividing lines that look   height="240" width="320" 
+                <!-- linediv-l and linediv-r give dividing lines that look
                 different in horizontal and vertical layouts, illustrating
                 media queries. -->
                 <div class="linediv-l">
@@ -291,7 +223,9 @@
             <button class="btn btn-facebook"><i class="icon-facebook"></i> | Facebook</button>
           </div>
         </div>
-    </div>
+      </div>
+
+	  
 	  
       <!-- Beyond this part the marketing copy begins. -->
       <!-- https://developer.mozilla.org/en-US/docs/Web/CSS/text-align -->
@@ -308,7 +242,7 @@
         </div>
 		
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="/img/file0001215037076.jpg">
+          <img class="img-polaroid" src="http://cdn.morguefile.com/imageData/public/files/a/anacgolpe/preview/fldr_2008_11_08/file0001215037076.jpg">
         </div>		
     </div>
 
@@ -324,9 +258,10 @@
         </div>
 		
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="/img/file6681269982727.jpg">
+          <img class="img-polaroid" src="http://cdn.morguefile.com/imageData/public/files/m/manicmorff/preview/fldr_2010_03_30/file6681269982727.jpg">
         </div>
     </div>
+  
 	  
 	<div class="row-fluid section3">
 		<div class="span5 offset1 copy copy-right">
@@ -336,7 +271,7 @@
         </div>
 		
 	    <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="/img/file000589061698.jpg">
+          <img class="img-polaroid" src="http://cdn.morguefile.com/imageData/public/files/c/click/preview/fldr_2008_11_08/file000589061698.jpg">
         </div>	
     </div>
   	  
@@ -349,97 +284,12 @@
         </div>
 		
         <div class="span5 offset1 asset">
-          <img class="img-polaroid" src="/img/file000202384719.jpg">
+          <img class="img-polaroid" src="http://cdn.morguefile.com/imageData/public/files/m/mensatic/preview/fldr_2008_11_28/file000202384719.jpg">
         </div>
     </div>
 	  
-
 	  
-	<div>
-		<blockquote class="pull-right">
-			<p>Your time is limited, so don't waste it living someone else's life.</p>
-			<small>S. Jobs <cite title="Source Title"> - June 12, 2005</cite></small>
-		</blockquote>
-    </div>	  
 	  
-
-
-<div class="container-fluid">
-	<div class="row-fluid">
-		<div class="span12">
-			<ul class="thumbnails">
-				<li class="span3">
-					<div class="thumbnail">
-						<img alt="160x120" src="/img/Video01.jpg">
-						<div class="caption">
-							<h4>
-								Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Blu Action</a> <a class="btn" href="#">Grey Action</a>
-							</p>
-						</div>
-					</div>
-				</li>
-				<li class="span3">
-					<div class="thumbnail">
-						<img alt="160x120" src="/img/Video02.jpg">
-						<div class="caption">
-							<h4>
-								Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Blu Action</a> <a class="btn" href="#">Grey Action</a>
-							</p>
-						</div>
-					</div>
-				</li>
-				<li class="span3">
-					<div class="thumbnail">
-						<img alt="160x120" src="/img/Video04.jpg">
-						<div class="caption">
-							<h4>
-								Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Blu Action</a> <a class="btn" href="#">Grey Action</a>
-							</p>
-						</div>
-					</div>
-				</li>
-				<li class="span3">
-					<div class="thumbnail">
-						<img alt="160x120" src="/img/Video06.jpg">
-						<div class="caption">
-							<h4>
-								Thumbnail label
-							</h4>
-							<p>
-								Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-							</p>
-							<p>
-								<a class="btn btn-primary" href="#">Blu Action</a> <a class="btn" href="#">Grey Action</a>
-							</p>
-						</div>
-					</div>
-				</li>
-				
-			</ul>
-		</div>
-	</div>
-</div>
-
-
-
 	  
       <!-- For the FAQ, we introduce a little bit of JS, using the accordion. -->
       <!-- This brings in jquery.js and bootstrap.js as dependencies. -->
@@ -491,17 +341,6 @@
         </div>
       </div>
     </div>
-
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
   </body>
 </html>
 
